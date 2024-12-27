@@ -1,5 +1,5 @@
 ## About
-Tokisaki Gallery - Anastasia Mode is a special page created for someone's birthday. But seems... it fails to achieve its goal as a website :"
+Tokisaki Gallery - Chaca Mode is a special page created for someone's birthday. May all the beauty be blessed"
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
