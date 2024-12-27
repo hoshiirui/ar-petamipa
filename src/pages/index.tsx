@@ -271,62 +271,24 @@ export default function Home() {
         zIndex={"-1"}
         pt={"180px"}
       >
-        <MisakiHeader theme="light" title="GIFT FOR YOU" />
-        <Stack gap="32px" px={"44px"} py={"24px"} fontSize={"16px"}>
+        <MisakiHeader theme="light" title="AFTERWORDS" />
+        <Stack gap="24px" px={"44px"} py={"24px"} fontSize={"16px"}>
           <Text textAlign={"justify"} fontSize={"14px"}>
             At last, I want to say thank you. For every impact you gave on my
             life, for everything you have done to become yourself now, also for
-            reading this imperfect long messages... 🌻
+            reading this imperfect long messages... ✨😋
           </Text>
           <Text textAlign={"justify"} fontSize={"14px"}>
-            I have also prepared some things for this special day. I think it
-            will arrive late but anyway... hope you like it 😊
+            Just as someone said, that we cannot know the darkness without
+            experiencing the light, or the night without the dawn, just like you
           </Text>
-          <HStack
-            justifyContent={"center"}
-            alignItems={"flex-start"}
-            gap={"20px"}
-          >
-            {/* <VStack
-              gap={"18px"}
-              _hover={{
-                transform: "scale(1.10)",
-                transition: "transform 0.3s",
-              }}
-            >
-              <Img src="assets/img/gift/myfuturesunflower.jpg" />
-              <VStack alignItems={"flex-start"} gap={"2px"}>
-                <Text fontSize="10px" color={"#84847C"}>
-                  해바라기처럼 밝은 미소
-                </Text>
-                <Text fontSize="16px" fontWeight={"bold"}>
-                  Some Merchandise
-                </Text>
-                <Text fontSize="10px" color={"#84847C"}>
-                  It all started with a dream, and yet becoming a dream yet to
-                  be dreamed.
-                </Text>
-              </VStack>
-            </VStack> */}
-            <VStack
-              gap={"18px"}
-              _hover={{
-                transform: "scale(1.10)",
-                transition: "transform 0.3s",
-              }}
-            >
-              <Img src="assets/img/gift/one.jpg" />
-            </VStack>
-            <VStack
-              gap={"18px"}
-              _hover={{
-                transform: "scale(1.10)",
-                transition: "transform 0.3s",
-              }}
-            >
-              <Img src="assets/img/gift/two.jpg" />
-            </VStack>
-          </HStack>
+          <Text textAlign={"justify"} fontSize={"14px"}>
+            I cannot know an imperfection before I met you, the perfection
+            itself.{" "}
+            <Text as="span" fontWeight="bold" color="#C7B832">
+              O, Lumina Symmetria
+            </Text>
+          </Text>
         </Stack>
         <Text textAlign={"center"} pt={"112px"}>
           {" "}
