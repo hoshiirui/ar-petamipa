@@ -274,6 +274,10 @@ export default function Home() {
         <MisakiHeader theme="light" title="AFTERWORDS" />
         <Stack gap="24px" px={"44px"} py={"24px"} fontSize={"16px"}>
           <Text textAlign={"justify"} fontSize={"14px"}>
+            From now on, this day will be known as{" "}
+            <Text as="span" fontWeight="bold" color="#C7B832">
+              Dies Luminae (lit. The day of Light){" "}
+            </Text>
             At last, I want to say thank you. For every impact you gave on my
             life, for everything you have done to become yourself now, also for
             reading this imperfect long messages... ✨😋
