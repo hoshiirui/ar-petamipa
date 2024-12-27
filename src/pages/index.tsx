@@ -87,15 +87,11 @@ export default function Home() {
           </Text>
           <Text>I want to wish you the happiest birthday 🌻</Text>
           <Text>
-            Just like the{" "}
+            Just like a{" "}
             <Text as="span" fontWeight="bold" color="#C7B832">
-              Sunflower
+              daylight
             </Text>{" "}
-            that always{" "}
-            <Text as="span" fontWeight="bold" color="#C7B832">
-              blooms beautifully
-            </Text>{" "}
-            in the garden, you bring warmth and radiance for the people closest
+            in a dark cave, you bring warmth and radiance for the people closest
             to you. Every step, every action, every gesture you made, convinces
             me that you are the{" "}
             <Text as="span" fontWeight="bold" color="#E55E81">
@@ -124,17 +120,13 @@ export default function Home() {
         <MisakiHeader theme="dark" title="LETTER FOR YOU" />
         <Stack gap="32px" px={"44px"} py={"24px"} fontSize={"16px"}>
           <Text textAlign={"center"} fontSize={"16px"} color={"white"}>
-            In your{" "}
+            Like a{" "}
             <Text as="span" fontWeight="bold" color="#3285C7">
-              presence
+              magical spell
             </Text>
-            , the world seems to fade into the background, for you{" "}
-            <Text as="span" fontWeight="bold" color="#E55E81">
-              beauty
-            </Text>{" "}
-            shines as brightly as{" "}
+            , just by thinking of you, I think tomorrow will{" "}
             <Text as="span" fontWeight="bold" color="#C7B832">
-              the Supernova
+              shine.
             </Text>
           </Text>
           <Img src="assets/img/other/letter-1.jpg" />
@@ -145,7 +137,7 @@ export default function Home() {
               color={"#A4C8E5"}
               fontWeight={"bold"}
             >
-              Oh hi again, Tasya!
+              Oh hi again, Chaca!
             </Text>
             <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
               I hope this letter finds you in good spirits. I&apos;ve been
@@ -191,35 +183,23 @@ export default function Home() {
               “Surely, it is you!”
             </Text>
             <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
-              Since that day forth, your presence gave me a reason to release
-              the shackles of the past. As if I were “resurrected” anew.
-            </Text>
-            <Text
-              textAlign={"justify"}
-              fontSize={"14px"}
-              color={"white"}
-              fontWeight={"bold"}
-            >
-              “The hourglass had reset upside down already”
+              Ever since I heard your name, I felt this strange pull towards
+              you, like we were meant to be. We almost missed each other a few
+              times, but fate brought us together during the &apos;colorful
+              odyssey&apos; project, my first with complete strangers.
+            </Text>{" "}
+            <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
+              {" "}
+              I didn&apos;t realize it at the time, but I started craving your
+              company. You always knew how to make me laugh and feel so good
+              about myself. You&apos;d get excited about my ideas, and I felt
+              like I could be completely myself around you.
             </Text>
             <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
-              Yet, the{" "}
-              <Text as="span" fontWeight="bold" color="#A4C8E5">
-                “resurrection”
-              </Text>{" "}
-              you bestowed wasn’t a mere “resurrection”. It was tender and
-              warm—becoming the{" "}
-              <Text as="span" fontWeight="bold" color="#DDD8AD">
-                “rebirth”
-              </Text>
-              .
-            </Text>
-            <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
-              It is you, the{" "}
-              <Text as="span" fontWeight="bold" color="#DDD8AD">
-                Flower of Rebirth
-              </Text>
-              .
+              The best part is, you always seem to appear when I need you most.
+              When I&apos;m feeling down or lost, you&apos;re like my own
+              personal moon, always watching over me. And you always know how to
+              lift me back up, so I can face the world again.
             </Text>
             <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
               Because of you, I&apos;m now enjoying every step of my journey, no
@@ -237,7 +217,7 @@ export default function Home() {
             <Text textAlign={"justify"} fontSize={"14px"} color={"white"}>
               Take care,{" "}
               <Text as="span" fontWeight="bold" color="#A4C8E5">
-                Tasya
+                Chaca
               </Text>
               .
             </Text>
@@ -262,19 +242,22 @@ export default function Home() {
         <HStack gap={"-2px"}>
           <VStack gap={"32px"}>
             <ChronicleCards img="tsy001" chronicleData={chronicle[0]} />
-            <ChronicleCards img="tsy002" chronicleData={chronicle[1]} />
+            <ChronicleCards img="tsy011" chronicleData={chronicle[10]} />
             <ChronicleCards img="tsy003" chronicleData={chronicle[2]} />
+            <ChronicleCards img="tsy013" chronicleData={chronicle[12]} />
           </VStack>
           <VStack gap={"32px"}>
             <ChronicleCards img="tsy004" chronicleData={chronicle[3]} />
             <ChronicleCards img="tsy005" chronicleData={chronicle[4]} />
             <ChronicleCards img="tsy006" chronicleData={chronicle[5]} />
             <ChronicleCards img="tsy007" chronicleData={chronicle[6]} />
+            <ChronicleCards img="tsy012" chronicleData={chronicle[11]} />
           </VStack>
           <VStack gap={"32px"}>
             <ChronicleCards img="tsy008" chronicleData={chronicle[7]} />
             <ChronicleCards img="tsy009" chronicleData={chronicle[8]} />
             <ChronicleCards img="tsy010" chronicleData={chronicle[9]} />
+            <ChronicleCards img="tsy014" chronicleData={chronicle[13]} />
           </VStack>
         </HStack>
       </Flex>
